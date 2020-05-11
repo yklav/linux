@@ -1,0 +1,53 @@
+!--------------!
+! FONT CONFIG  !
+!--------------!
+
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintfull
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+
+!-------------!
+!   UXterm    !
+!-------------!
+
+! General
+UXTerm.termName: xterm-256color
+UXTerm.vt100.locale: true
+UXTerm.vt100.metaSendsEscape: true
+UXTerm.vt100.saveLines: 4096
+UXTerm.vt100.scrollBar: false
+
+!Copy and Paste
+UXTerm.vt100.translations: #override \n\
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+! Colors    
+UXTerm.vt100.foreground: rgb:be/be/be
+UXTerm.vt100.background: rgb:37/37/37
+
+UXTerm.vt100.color0: rgb:37/37/37
+UXTerm.vt100.color1: rgb:89/46/46
+UXTerm.vt100.color2: rgb:3e/66/5a
+UXTerm.vt100.color3: rgb:75/6f/40
+UXTerm.vt100.color4: rgb:37/56/6d
+UXTerm.vt100.color5: rgb:71/43/60
+UXTerm.vt100.color6: rgb:44/68/73
+UXTerm.vt100.color7: rgb:98/98/98
+
+UXTerm.vt100.color8: rgb:5a/5a/5a
+UXTerm.vt100.color9: rgb:a0/62/62
+UXTerm.vt100.color10: rgb:60/7e/75
+UXTerm.vt100.color11: rgb:90/8b/66
+UXTerm.vt100.color12: rgb:5e/77/8a
+UXTerm.vt100.color13: rgb:78/5c/6d
+UXTerm.vt100.color14: rgb:69/86/8f
+UXTerm.vt100.color15: rgb:be/be/be
+
+! Fonts
+UXTerm.vt100.faceName: Cousine:size=10:antialias=true:hinting=true:hintstyle=hintfull:rgba=rgb:lcdfilter=lcddefault
