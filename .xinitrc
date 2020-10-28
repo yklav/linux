@@ -1,5 +1,3 @@
-#!/bin/sh
-
 # merge in defaults and keymaps
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
@@ -13,6 +11,7 @@ fi
 
 # Startup applications
 xsetroot -cursor_name left_ptr
+xset r rate 300 50
 setxkbmap -layout br -variant abnt2  
 eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 eval $(ssh-agent)
